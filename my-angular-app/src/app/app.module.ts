@@ -7,12 +7,12 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HelloWorldComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HelloWorldComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
